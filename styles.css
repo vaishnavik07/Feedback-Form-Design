@@ -1,0 +1,85 @@
+body{
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+
+
+form{
+    background-color:white;
+    max-width: 500px;
+    margin:  20px auto 50px  ;
+    padding: 30px;
+    box-shadow: 5px 3px 2px #3E065F;
+}
+
+.form-control{
+    text-align: left;
+    margin-bottom:20px ;
+    border: solid #EEEEEE;
+    border-radius: 8px;
+    padding:6px;
+    
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control textarea{
+    border:1px solid gray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
+    border-radius: 2px;
+    padding: 5px;
+    display: block;
+    width: 95%;
+
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+ }
+
+.title{
+     background-color: white;
+     max-width: 500px;
+     margin: auto;
+     padding: 20px 30px;
+     box-shadow: 5px 2px 2px #3E065F;
+}
+
+.para{
+    text-align: left;
+}
+
+.heading{
+    color: #3D2C8D;
+}
+
+.row{
+    border-style: none none dotted;
+    border-width: 5px;
+    width: 50%;
+}
+
+.colour{
+    height: 10px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 1px  #3E065F;
+    padding: 5px 30px;
+    background-color: #700B97;
+    box-shadow: 5px 0px 2px #3E065F;
+    border-top-left-radius: 8px ;
+    border-top-right-radius: 8px;
+    position: relative;
+    left: 1px;
+    top: 4px;
+}

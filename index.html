@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="colour"></div>
+    <div class="title">
+       
+        <img src="https://www.pictcsi.com/assets/CSI%20Logo%20Nav.png" alt="PCSB logo" width="100px">
+        <h1 class="heading">PCSB EVENT FEEDBACK </h1>
+        <hr class="row"> 
+        <p class="para"> PICT CSI Student Branch, working under CSI, has an objective to facilitate research, knowledge and career enhancement for the students, along with inspiring and nurturing new entrants into the industry.</p>
+        <p class="para"> It provides a platform for technical and non-technical education</p>
+        <p class="para"><b>About event:</b></p>
+        <ul class="para">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            
+        </ul>
+      
+    </div>
+    <!--Form Design-->
+    <form id="form">
+    <div class="form-control">
+        <label for="name" id="label-name">Name </label>
+        <input type="text" id="name" placeholder="Enter your name" required="">
+    </div>
+
+    <div class="form-control"> 
+        <label for="email" id="label-email">Email</label>
+        <input type="email" id="email" placeholder="Enter your Email" required="">
+    </div>
+
+    <div class="form-control">
+        <label for="college" id="label-college">College</label>
+        <input type="text" id="college" placeholder="Enter your college name" required="">
+    </div>
+
+    <div class="form-control">
+        <label for="session" id="label-session">Do you want more sessions on this topic ?</label>
+        <label for="ans1">
+            <input type="radio" id="ans1" name="ans">Yes</input>
+        </label>
+
+        <label for="ans2">
+            <input type="radio" id="ans2" name="ans">No</input>
+        </label>
+    </div>
+
+    <div class="form-control">
+        <label for="choice">On which topic you would like to attend the session in future?
+        <small>(You can choose more than one option)</small></label>
+        <label for="inp-1">
+            <input type="checkbox" name="inp">Web Development
+        </label>
+        <label for="inp-2">
+            <input type="checkbox" name="inp">Machine Learning
+        </label>
+        <label for="inp-3">
+            <input type="checkbox" name="inp">Block Chain
+        </label>
+        <label for="inp-3">
+            <input type="checkbox" name="inp">Hackathon Preparation
+        </label>
+        <label for="inp-4">
+            <input type="checkbox" name="inp">Build new start up
+        </label>
+        <label for="inp-6">
+            <input type="checkbox" name="inp">Competitive Programming
+        </label>
+        <label for="inp-7">
+            <input type="checkbox" name="inp">Cloud Computing
+        </label>
+    
+    </div>
+    <div class="form-control">
+        <label for="comment">Any comments or suggestions</label>
+        <textarea name="comment" id="comment" cols="30" rows="3" placeholder="Enter your comment here"></textarea>
+    </div>
+
+    <button type="submit" value="submit">Submit</button>
+    </form>
+
+</body>
+</html>
