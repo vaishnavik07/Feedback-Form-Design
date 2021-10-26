@@ -1,5 +1,5 @@
 body{
-    background-color: #EEEEEE;
+    background-color: #d1d0d6;
     text-align: center;
 }
 
@@ -82,4 +82,13 @@ form{
     position: relative;
     left: 1px;
     top: 4px;
+}
+
+button{
+    background-color: #3D2C8D;
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    color: white;
+    border: 3px solid #5e4dac;
 }
